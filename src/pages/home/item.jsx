@@ -1,10 +1,11 @@
 import { PiVirus } from "react-icons/pi";
 const Item = ({ color, text, value }) => {
   return (
-    <div flex gap-3 items-center>
+    <div className="flex gap-3 items-center">
+
       <PiVirus
         className={`${color} text-2xl md:text-5xl`}
-        data-test-id="icon"
+        data-testid="icon"
       />
       <div>
         <span

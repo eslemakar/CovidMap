@@ -13,8 +13,8 @@ test("Itema Gönderilen Proplar doğru şekilde kullanılır", () => {
 
   // 1-önce elementi çağır sonra textine bak
   const h3 = screen.getByRole("heading");
-  expect(h2).toHaveTextContent("399M");
+  expect(h3).toHaveTextContent("399M");
 
   //2-element text
-  screen.getByText("Toplam Test");
+  screen.getByText("toplam test");
 });

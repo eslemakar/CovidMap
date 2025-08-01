@@ -19,3 +19,12 @@ redux-thunk
 api: https://rapidapi.com/api-sports/api/covid-193/playground/apiendpoint_97f1d614-d52d-459a-bb34-be1211366b0c
 geo.json
 # covidMap
+
+hangi yöntemle yaptık
+byRole
+byLabelText
+ByPlaceholder
+ByText
+ByDisplayValue
+ByAltText
+# CovidMap

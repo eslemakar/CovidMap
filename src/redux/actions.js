@@ -30,6 +30,6 @@ export const getDetails = createAsyncThunk(
       population: covid.population,
       flag: countryData.flags,
     };
-    return "PAYLOAD";
+    return data;
   }
 );
